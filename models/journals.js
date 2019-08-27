@@ -10,34 +10,34 @@ module.exports = {
 };
 
 function find() {
-  return db('projects');
+  return db('journals');
 };
 
 function findBy(filter) {
-  return db('projects').where(filter);
+  return db('journals').where(filter);
 };
 
-async function add(project) {
-  const [id] = await db('projects').insert(project);
+async function add(journal) {
+  const [id] = await db('journals').insert(journal);
 
   return findById(id);
 };
 
 function findById(id) {
-  return db('projects')
+  return db('journals')
     .where({ id })
     .first();
 };
 
 function remove(id) {
-  return db('projects')
+  return db('journals')
     .where({ id })
     .first()
     .del();
 };
 
-function update(project, id) {
-  return db('projects')
+function update(journal, id) {
+  return db('journals')
     .where({ id })
-    .update(project);
+    .update(journal);
 };

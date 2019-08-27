@@ -11,8 +11,7 @@ module.exports = {
 };
 
 function find() {
-  return db('users').select('id', 'username', 'name','about','email','pfp','role','team_id','created_at');
-};
+  return db('users').select('id', 'firstname','lastname','date')};
 
 function findBy(filter) {
   return db('users').where(filter);
@@ -31,9 +30,9 @@ function findById(id) {
 };
 
 async function findProjectsByUserId(id) {
-  const projects = await db('projects').where({ user_id: id });
-  console.log(projects)
-  return projects;
+  const journals = await db('journals').where({ user_id: id });
+  console.log(journals)
+  return journals;
 }
 
 function remove(id) {
