@@ -3,7 +3,7 @@ exports.up = function(knex, Promise) {
     return knex.schema.createTable('journals', journals =>{
         journals.increments();
  
-        journals.post('post', 128);
+        journals.string('post');
 
         journals.datetime('date');
  
