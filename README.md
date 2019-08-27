@@ -51,7 +51,7 @@ _HTTP Method:_ **[POST]**
 
 ### Gets a list of users.
 
-_Method URL:_ `https://vr-overlord-server.herokuapp.com/users/`
+_Method URL:_ `https://vr-overlord-server.herokuapp.com/persons/`
 
 _HTTP Method:_ **[GET]**
 
@@ -59,7 +59,7 @@ _HTTP Method:_ **[GET]**
 
 ### Gets user by ID. 🔍
 
-_Method URL:_ `https://vr-overlord-server.herokuapp.com/users/:id`
+_Method URL:_ `https://vr-overlord-server.herokuapp.com/persons/:id`
 
 _HTTP Method:_ **[GET]**
 
@@ -67,7 +67,7 @@ _HTTP Method:_ **[GET]**
 
 ### Gets all projects for specified user.
 
-_Method URL:_ `https://vr-overlord-server.herokuapp.com/users/:id/projects`
+_Method URL:_ `https://vr-overlord-server.herokuapp.com/persons/:id/projects`
 
 _HTTP Method:_ **[GET]**
 
@@ -76,7 +76,7 @@ _HTTP Method:_ **[GET]**
 
 ### Deletes user by ID.
 
-_Method URL:_ `https://vr-overlord-server.herokuapp.com/users/:id`
+_Method URL:_ `https://vr-overlord-server.herokuapp.com/persons/:id`
 
 _HTTP Method:_ **[DELETE]**
 
@@ -85,7 +85,7 @@ _HTTP Method:_ **[DELETE]**
 
 ### Updates user by ID.
 
-_Method URL:_ `https://vr-overlord-server.herokuapp.com/users/:id`
+_Method URL:_ `https://vr-overlord-server.herokuapp.com/persons/:id`
 
 _HTTP Method:_ **[PUT]**
 
