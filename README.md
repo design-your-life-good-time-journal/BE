@@ -1,5 +1,5 @@
 #  API Documentation
-https://webapi--iv.herokuapp.com/users
+https://vr-overlord-server.herokuapp.com/
 
 ## Table of Contents
  
@@ -32,7 +32,7 @@ https://webapi--iv.herokuapp.com/users
 
 ### Registers a new user.
 
-_Method URL:_ `webapi--iv.herokuapp.com/auth/register`
+_Method URL:_ `https://vr-overlord-server.herokuapp.com/auth/register`
 
 _HTTP Method:_ **[POST]**
 
@@ -40,7 +40,7 @@ _HTTP Method:_ **[POST]**
 
 ### Logs in an already registered user.
 
-_Method URL:_ `webapi--iv.herokuapp.com/auth/login`
+_Method URL:_ `https://vr-overlord-server.herokuapp.com/auth/login`
 
 _HTTP Method:_ **[POST]**
 
@@ -51,7 +51,7 @@ _HTTP Method:_ **[POST]**
 
 ### Gets a list of users.
 
-_Method URL:_ `webapi--iv.herokuapp.com/users/`
+_Method URL:_ `https://vr-overlord-server.herokuapp.com/users/`
 
 _HTTP Method:_ **[GET]**
 
@@ -59,7 +59,7 @@ _HTTP Method:_ **[GET]**
 
 ### Gets user by ID. 🔍
 
-_Method URL:_ webapi--iv.herokuapp.com/users/:id`
+_Method URL:_ `https://vr-overlord-server.herokuapp.com/users/:id`
 
 _HTTP Method:_ **[GET]**
 
@@ -67,7 +67,7 @@ _HTTP Method:_ **[GET]**
 
 ### Gets all projects for specified user.
 
-_Method URL:_ `webapi--iv.herokuapp.com/users/:id/projects`
+_Method URL:_ `https://vr-overlord-server.herokuapp.com/users/:id/projects`
 
 _HTTP Method:_ **[GET]**
 
@@ -76,7 +76,7 @@ _HTTP Method:_ **[GET]**
 
 ### Deletes user by ID.
 
-_Method URL:_ `webapi--iv.herokuapp.com/users/:id`
+_Method URL:_ `https://vr-overlord-server.herokuapp.com/users/:id`
 
 _HTTP Method:_ **[DELETE]**
 
@@ -85,7 +85,7 @@ _HTTP Method:_ **[DELETE]**
 
 ### Updates user by ID.
 
-_Method URL:_ `webapi--iv.herokuapp.com/users/:id`
+_Method URL:_ `https://vr-overlord-server.herokuapp.com/users/:id`
 
 _HTTP Method:_ **[PUT]**
 
@@ -96,7 +96,7 @@ _HTTP Method:_ **[PUT]**
 
 ### Creates a project, with a project type, description, funding amount, and user id.
 
-_Method URL:_ `webapi--iv.herokuapp.com/journals`
+_Method URL:_ `https://vr-overlord-server.herokuapp.com/journals`
 
 _HTTP Method:_ **[POST]**
 
@@ -105,7 +105,7 @@ _HTTP Method:_ **[POST]**
 
 ### Gets a list of projects.
 
-_Method URL:_ `webapi--iv.herokuapp.com/journals`
+_Method URL:_ `https://vr-overlord-server.herokuapp.com/journals`
 
 _HTTP Method:_ **[GET]**
 
@@ -113,7 +113,7 @@ _HTTP Method:_ **[GET]**
 
 ### Gets project by ID.
 
-_Method URL:_ `webapi--iv.herokuapp.com/journals/:id`
+_Method URL:_ `https://vr-overlord-server.herokuapp.com/journals/:id`
 
 _HTTP Method:_ **[GET]**
 
@@ -122,7 +122,7 @@ _HTTP Method:_ **[GET]**
 
 ### Updates project by ID.
 
-_Method URL:_ `webapi--iv.herokuapp.com/journals/:id`
+_Method URL:_ `https://vr-overlord-server.herokuapp.com/journals/:id`
 
 _HTTP Method:_ **[PUT]**
 
@@ -131,22 +131,22 @@ _HTTP Method:_ **[PUT]**
 
 ### Deletes project by ID.
 
-_Method URL:_ `webapi--iv.herokuapp.com/journals/:id`
+_Method URL:_ `https://vr-overlord-server.herokuapp.com/journals/:id`
 
 _HTTP Method:_ **[DELETE]**
 
 
 ## Get Reflections
 
-_Method URL:_ `webapi--iv.herokuapp.com/reflections`
+_Method URL:_ `https://vr-overlord-server.herokuapp.com/reflections`
 
 ## Get Team by ID
 
-_Method URL:_ `webapi--iv.herokuapp.com/reflections/:id`
+_Method URL:_ `https://vr-overlord-server.herokuapp.com/reflections/:id`
 
 ## Create Team
 
-_Method URL:_ `webapi--iv.herokuapp.com/reflections`
+_Method URL:_ `https://vr-overlord-server.herokuapp.com/reflections`
 
 
  
